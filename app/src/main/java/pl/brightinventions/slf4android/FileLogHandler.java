@@ -10,7 +10,7 @@ import java.util.logging.Filter;
 import java.util.logging.Formatter;
 import java.util.logging.LogRecord;
 
-class FileLogHandler extends FileLogHandlerConfiguration {
+public class FileLogHandler extends FileLogHandlerConfiguration {
     private static String TAG = FileLogHandler.class.getSimpleName();
     private FileHandler fileHandler;
     private FileHandlerConfigParams config;
